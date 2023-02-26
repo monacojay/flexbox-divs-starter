@@ -104,7 +104,7 @@ html {
 body {
     font-family: 'Source Sans Pro', sans-serif;
     padding: 2em;
-    font-size: 1.25em;
+    font-size: 1em;
     height: 100%;
 }
 
@@ -112,7 +112,7 @@ body {
     /*add display:flex and set justify-content to space-between*/
     display: flex;
     justify-content: space-between;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .flex-items,
@@ -121,13 +121,16 @@ body {
     /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
     display: flex;
     width: 30%;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
+    justify-content: flex-start;
+    align-items: flex-start;
+    color: #030303;
     line-height: 1.5em;
     font-size: 1.6em;
-    background-color: #f16059;
+    /* background-color: #f16059; */
     height: 300px;
+    padding: 15px;
+    border-left: 2px solid #000;
+    
 }
 
 
